@@ -35,43 +35,43 @@ rdfs:domain con:Person ;
 vs:term_status "experimental".
 
 
-contact:telephone de rdfs:Class ;
+contact:telephonePerso a rdfs:Class ;
 rdfs:label "Telephone pro"@fr;
 rdfs:comment "Numero de elephone professionnel"@fr;
 rdfs:domain con:Person ;
 vs:term_status "experimental".
 
-contact:habite au a rdfs:Class ;
+contact:habite a rdfs:Class ;
 rdfs:label "Adresse"@fr;
 rdfs:comment "adresse de la personne"@fr;
 rdfs:domain con:Person ;
 vs:term_status "experimental".
 
-contact:habite au a rdfs:Class ;
+contact:travail a rdfs:Class ;
 rdfs:label "Adresse pro"@fr;
 rdfs:comment "adresse professionnelle de la personne"@fr;
 rdfs:domain con:Person ;
 vs:term_status "experimental".
 
-contact:inscrit securité sciale au a rdfs:Class ;
+contact:nss a rdfs:Class ;
 rdfs:label "NSS"@fr;
 rdfs:comment "Numéro de sécurité sociale  de la personne"@fr;
 rdfs:domain  con:Person ;
 vs:term_status "experimental".
 
-contact:adresse mail  a rdfs:Class ;
+contact:mail  a rdfs:Class ;
 rdfs:label "Adresse mail"@fr;
 rdfs:comment "l'adresse mail de la personne"@fr;
 rdfs:domain  con:Person ;
 vs:term_status "experimental".
 
-contact:date de naissance rdfs:Class ;
+contact:naissance a rdfs:Class ;
 rdfs:label "Date de naissance"@fr;
 rdfs:comment "la date de naissance de la personne"@fr;
 rdfs:domain  con:Person ;
 vs:term_status "experimental".
 
-contact:pays de naissance rdfs:Class ;
+contact:pays a rdfs:Class ;
 rdfs:label "pays de naissance"@fr;
 rdfs:comment "pays de naissance de la personne"@fr;
 rdfs:domain  con:Person ;
