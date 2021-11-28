@@ -24,6 +24,16 @@
 - https://dev-aghiles.github.io/THYP_21-22/omk/data/resource_templates_19.json
 - https://dev-aghiles.github.io/THYP_21-22/omk/data/resource_templates_20.json
 
+## liens vers chaque items resource template JSON détaillée
+
+- https://dev-aghiles.github.io/THYP_21-22/omk/data/items_resource_templates_14.json
+- https://dev-aghiles.github.io/THYP_21-22/omk/data/items_resource_templates_15.json
+- https://dev-aghiles.github.io/THYP_21-22/omk/data/items_resource_templates_16.json
+- https://dev-aghiles.github.io/THYP_21-22/omk/data/items_resource_templates_17.json
+- https://dev-aghiles.github.io/THYP_21-22/omk/data/items_resource_templates_18.json
+- https://dev-aghiles.github.io/THYP_21-22/omk/data/items_resource_templates_19.json
+- https://dev-aghiles.github.io/THYP_21-22/omk/data/items_resource_templates_20.json
+
 ## Les liens vers les détails de chaque item JSON
 - https://dev-aghiles.github.io/THYP_21-22/omk/data/item_26.json
 - https://dev-aghiles.github.io/THYP_21-22/omk/data/item_27.json
