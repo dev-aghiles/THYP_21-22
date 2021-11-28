@@ -4,7 +4,7 @@ Formulaire de contact en JavaScript
 
 ## Description
 
-Création d'un formulaire de contact pour un site web, en utilisant les technologies de JavaScript et HTML5/CSS3
+Création d'un vocabulaire pour formulaire de contact d'une personne donnée, en utilisant les technologies de JavaScript et HTML5/CSS3
 
 ## Getting Started
 
