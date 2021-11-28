@@ -15,7 +15,7 @@
 ## lien vers vers la liste des resources templates JSON
 - https://dev-aghiles.github.io/THYP_21-22/omk/data/resource_templates.json
 
-## liens vers chaque resource template JSON détailléé
+## liens vers chaque resource template JSON détaillée
 - https://dev-aghiles.github.io/THYP_21-22/omk/data/resource_templates_14.json
 - https://dev-aghiles.github.io/THYP_21-22/omk/data/resource_templates_15.json
 - https://dev-aghiles.github.io/THYP_21-22/omk/data/resource_templates_16.json
@@ -24,16 +24,14 @@
 - https://dev-aghiles.github.io/THYP_21-22/omk/data/resource_templates_19.json
 - https://dev-aghiles.github.io/THYP_21-22/omk/data/resource_templates_20.json
 
-
-- http://localhost/omeka-s/api/items/1
-- http://localhost/omeka-s/api/items/2
-- http://localhost/omeka-s/api/items/3
-- http://localhost/omeka-s/api/items/4
-- http://localhost/omeka-s/api/items/5
-- http://localhost/omeka-s/api/items/6
-- http://localhost/omeka-s/api/items/7
-- http://localhost/omeka-s/api/items/6
-- http://localhost/omeka-s/api/items/9
+## Les liens vers les détails de chaque item JSON
+- https://dev-aghiles.github.io/THYP_21-22/omk/data/item_26.json
+- https://dev-aghiles.github.io/THYP_21-22/omk/data/item_27.json
+- https://dev-aghiles.github.io/THYP_21-22/omk/data/item_28.json
+- https://dev-aghiles.github.io/THYP_21-22/omk/data/item_29.json
+- https://dev-aghiles.github.io/THYP_21-22/omk/data/item_30.json
+- https://dev-aghiles.github.io/THYP_21-22/omk/data/item_31.json
+- https://dev-aghiles.github.io/THYP_21-22/omk/data/item_32.json
 
 # lien vers le vocabulaire
 - https://dev-aghiles.github.io/THYP_21-22/onto/contact.ttl
