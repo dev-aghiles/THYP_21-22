@@ -1,0 +1,38 @@
+{
+    "@context": "http://localhost/omeka-s/api-context",
+    "@id": "http://localhost/omeka-s/api/resource_templates/20",
+    "@type": "o:ResourceTemplate",
+    "o:id": 20,
+    "o:label": "Vente",
+    "o:owner": { "@id": "http://localhost/omeka-s/api/users/1", "o:id": 1 },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka-s/api/resource_classes/833",
+      "o:id": 833
+    },
+    "o:title_property": null,
+    "o:description_property": null,
+    "o:resource_template_property": [
+      {
+        "o:property": {
+          "@id": "http://localhost/omeka-s/api/properties/1",
+          "o:id": 1
+        },
+        "o:alternate_label": null,
+        "o:alternate_comment": null,
+        "o:data_type": [],
+        "o:is_required": false,
+        "o:is_private": false
+      },
+      {
+        "o:property": {
+          "@id": "http://localhost/omeka-s/api/properties/4",
+          "o:id": 4
+        },
+        "o:alternate_label": null,
+        "o:alternate_comment": null,
+        "o:data_type": [],
+        "o:is_required": false,
+        "o:is_private": false
+      }
+    ]
+  }
