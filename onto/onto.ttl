@@ -1,0 +1,119 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+@prefix mo: <http://purl.org/ontology/mo#>.
+
+
+@prefix onto: <https://dev-aghiles.github.io/dev-aghiles/THYP_21-22/onto/onto.ttl#> .
+
+<https://dev-aghiles.github.io/THYP_21-22/onto/onto.ttl> a owl:Ontology ;
+
+
+dcterms:title "Application de livraison" .
+
+#c'est une application de livraison qui permet de définir les différents processus de livraison d'une commande
+
+# vocabularies.
+
+onto:Client a rdfs:Class ;
+    rdfs:label "Client" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Vendeur a rdfs:Class ;
+    rdfs:label "Vendeur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" 
+
+onto:Commande a rdfs:Class ;
+    rdfs:label "Commande" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Facture a rdfs:Class ;
+    rdfs:label "Facture" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Produit a rdfs:Class ;
+    rdfs:label "Produit" ;
+    rdfs:domain o:Resource 
+    vs:term_status "experimental" .
+
+onto:Vente a rdfs:Class ;
+    rdfs:label "Vente" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+onto:Mode_paiement a rdfs:Class ;
+    rdfs:label "Mode de paiement" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Nom a rdf:Property ;
+    rdfs:label "Nom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto: Prenom a rdf:Property ;
+    rdfs:label "prenom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+onto:Email a rdf:Property ;
+    rdfs:label "Email" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Telephone a rdf:Property ;
+    rdfs:label "Telephone" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Adresse a rdf:Property ;
+    rdfs:label "Adresse" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto: Prix a rdf:Property ;
+    rdfs:label "Prix" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:designation_produit a rdf:Property ;
+    rdfs:label "Designation produit" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Date_commande a rdf:Property ;
+    rdfs:label "date de la commande" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Date_livraison a rdf:Property ;
+    rdfs:label "date de la livraison" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+onto:Paiment a rdf:Property ;
+    rdfs:label "paiment" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Observation a rdf:Property ;
+    rdfs:label "observation" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Note a rdf:Property ;
+    rdfs:label "Note" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+vs:term_status "experimental".
