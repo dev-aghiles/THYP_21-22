@@ -3,12 +3,12 @@
 - https://dev-aghiles.github.io/THYP_21-22/ex1/
 
 # lien vers le récapitulatif Omk 
-- https://dev-aghiles.github.io/THYP_21-22/ex1/
-- 
+
+- https://dev-aghiles.github.io/THYP_21-22/omk/
+
 # lien vers le projet
 - https://dev-aghiles.github.io/THYP_21-22/projet.md
 
-# liste des apis du projet omeka
 
 # lien vers les items omeka
 
