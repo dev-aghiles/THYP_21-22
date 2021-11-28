@@ -1,11 +1,13 @@
-@prefix green: <http://omeka.org/s/vocabs/contact#> .
+@prefix contact: <http://omeka.org/s/vocabs/contact#> .
 @prefix con: <http://www.w3.org/2000/10/swap/pim/contact#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix doc: <http://www.w3.org/2000/10/swap/pim/doc#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix green: <https://dev-aghiles.github.io/dev-aghiles/THYP_21-22/onto/onto.ttl#> .
+@prefix contact: <https://dev-aghiles.github.io/dev-aghiles/THYP_21-22/onto/onto.ttl#> .
 
 <https://ecom.univ-paris8.fr/contact/contact#> a owl:Ontology ;
 dcterms:title "décrire un formulaire de contact d'une personne" .
@@ -26,14 +28,14 @@ rdfs:comment "prenom de la personne"@fr;
 rdfs:domain con:Person ;
 vs:term_status "experimental".
 
-contact:dispose d'un a rdfs:Class ;
+contact:personne a rdfs:Class ;
 rdfs:label "Telephone"@fr;
 rdfs:comment "Numero de elephone personnel"@fr;
 rdfs:domain con:Person ;
 vs:term_status "experimental".
 
 
-contact:dispose d'un a rdfs:Class ;
+contact:telephone de rdfs:Class ;
 rdfs:label "Telephone pro"@fr;
 rdfs:comment "Numero de elephone professionnel"@fr;
 rdfs:domain con:Person ;
