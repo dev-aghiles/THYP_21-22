@@ -1,18 +1,31 @@
 # Titre du projet
 
-Formulaire de contact en JavaScript
+Application de livraion produits à domicile
 
 ## Description
 
-Création d'un vocabulaire pour formulaire de contact d'une personne donnée, en utilisant les technologies de JavaScript et HTML5/CSS3
+Application de gestion de livraison à domicile destiné aux professionnels souhaitant digitaliser leurs offres et promouvoir leur produits sur le Web.
 
-## Getting Started
+## Espace client
+
+Le client visualise les produits, il remplit son panier, paye en ligne, et gère l'avancement de ses commandes et ses factures.
+
+
+## Espace Vendeur
+
+le préparateur visualise les commandes, prend en charge la préparation de la commande, et valide la fin de la préparation de la commande.
+
+
+## Espace Livreur
+
+Le livreur Visualise les commandes prêtes à être livrées, prend en charge la livraison, valide la livraison de la commande, et affiche les itinéraires des livraisons.
 
 ### Dependencies
 
-*  Windows 10
-*  Visual Studio
-*  Google Chrome
+*Windows 10
+*Visual Studio
+*Google Chrome
+*Xamp or Wamp server
 
 ### Installation
 
@@ -20,12 +33,9 @@ Création d'un vocabulaire pour formulaire de contact d'une personne donnée, en
 
 ### Execution de la page
 
-* Ouvrir le fichier nommé Contact.html
-* Copier le code
-* Sur votre machine: Ouvrir Visual Studio Code
-* Créer un nouveau fichier contact.html
-* Coller le code dans votre page
-* Aller à l'emplacement du fichier contact.html et ouvrir avec chrome
+*Télacharger le dossier
+*Décompresser le dossier à l'emplacement de la XAMP
+*Ouvrir le navigateur à la page Livrraison.php
 ```
 code blocks for commands
 ```
@@ -33,7 +43,8 @@ code blocks for commands
 ## Auteur
 
 Aghiles SAAL
-#Link to API OMEKA S
+
+## Link to API OMEKA S
 (http://localhost/omeka-s/api/items/2)
 (http://localhost/omeka-s/api/items/3)
 (http://localhost/omeka-s/api/items/4)
