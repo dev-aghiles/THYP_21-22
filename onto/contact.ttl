@@ -1,1 +1,76 @@
+@prefix green: <http://omeka.org/s/vocabs/contact#> .
+@prefix con: <http://www.w3.org/2000/10/swap/pim/contact#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix doc: <http://www.w3.org/2000/10/swap/pim/doc#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix green: <https://dev-aghiles.github.io/dev-aghiles/THYP_21-22/onto/onto.ttl#> .
 
+<https://ecom.univ-paris8.fr/contact/contact#> a owl:Ontology ;
+dcterms:title "décrire un formulaire de contact d'une personne" .
+
+#c'est un vocabulaire qui permet de définir les champs d'un formumaire de Contact
+
+# vocabularies.
+
+contact:personne a rdfs:Class ;
+rdfs:label "Nom"@fr;
+rdfs:comment "nom de la personne"@fr;
+rdfs:domain con:Person ;
+vs:term_status "experimental".
+
+contact:personne a rdfs:Class ;
+rdfs:label "Prenom"@fr;
+rdfs:comment "prenom de la personne"@fr;
+rdfs:domain con:Person ;
+vs:term_status "experimental".
+
+contact:dispose d'un a rdfs:Class ;
+rdfs:label "Telephone"@fr;
+rdfs:comment "Numero de elephone personnel"@fr;
+rdfs:domain con:Person ;
+vs:term_status "experimental".
+
+
+contact:dispose d'un a rdfs:Class ;
+rdfs:label "Telephone pro"@fr;
+rdfs:comment "Numero de elephone professionnel"@fr;
+rdfs:domain con:Person ;
+vs:term_status "experimental".
+
+contact:habite au a rdfs:Class ;
+rdfs:label "Adresse"@fr;
+rdfs:comment "adresse de la personne"@fr;
+rdfs:domain con:Person ;
+vs:term_status "experimental".
+
+contact:habite au a rdfs:Class ;
+rdfs:label "Adresse pro"@fr;
+rdfs:comment "adresse professionnelle de la personne"@fr;
+rdfs:domain con:Person ;
+vs:term_status "experimental".
+
+contact:inscrit securité sciale au a rdfs:Class ;
+rdfs:label "NSS"@fr;
+rdfs:comment "Numéro de sécurité sociale  de la personne"@fr;
+rdfs:domain  con:Person ;
+vs:term_status "experimental".
+
+contact:adresse mail  a rdfs:Class ;
+rdfs:label "Adresse mail"@fr;
+rdfs:comment "l'adresse mail de la personne"@fr;
+rdfs:domain  con:Person ;
+vs:term_status "experimental".
+
+contact:date de naissance rdfs:Class ;
+rdfs:label "Date de naissance"@fr;
+rdfs:comment "la date de naissance de la personne"@fr;
+rdfs:domain  con:Person ;
+vs:term_status "experimental".
+
+contact:pays de naissance rdfs:Class ;
+rdfs:label "pays de naissance"@fr;
+rdfs:comment "pays de naissance de la personne"@fr;
+rdfs:domain  con:Person ;
+vs:term_status "experimental".
