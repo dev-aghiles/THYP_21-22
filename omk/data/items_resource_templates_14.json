@@ -91,7 +91,7 @@
 {
 "type": "literal",
 "property_id": 1,
-"property_label": "Title",
+"property_label": "Nom",
 "is_public": true,
 "@value": "Aghiles Saal"
 }
@@ -99,7 +99,7 @@
 "dcterms:description": [
 {
 "type": "literal",
-"property_id": 4,
+"property_id": 1,
 "property_label": "Nom",
 "is_public": true,
 "@value": "Saal"
