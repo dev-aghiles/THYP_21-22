@@ -82,17 +82,19 @@
             $.each(data, function (i, val) {
                 var name = "";
                 if(i.includes("dcterms:title")){name = "Titre"}
-                else if (i.includes("dcterms:description")){name = "Description"}
-                else if (i.includes("dcterms:description")){name = "Description"}
-                else if (i.includes("Elearning:hasLastname")){name = "Nom"}
-                else if (i.includes("Elearning:hasFirstname")){name = "Prénom"}
-                else if (i.includes("Elearning:teacherOf")){name = "Professeur de"}
-                else if (i.includes("Elearning:hasAge")){name = "Age"}
-                else if (i.includes("Elearning:hasEmail")){name = "Email"}
-                else if (i.includes("Elearning:hasPhone")){name = "Numéro de téléphone"}
+                else if (i.includes("onto:Nom")){name = "Nom"}
+                else if (i.includes("onto:Prenom")){name = "Prénom"}
+                else if (i.includes("onto:Email")){name = "Email"}
+                else if (i.includes("onto:Telephone")){name = "Telephone"}
+                else if (i.includes("onto:Adresse")){name = "Adresse"}
+                else if (i.includes("onto:designation_produit")){name = "designation_produit"}
+                else if (i.includes("onto:Prix")){name = "Prix"}
+                else if (i.includes("onto:Date_commande")){name = "Date_commande"}
+                else if (i.includes("onto:Date_livraison")){name = "Date_livraison"}
 
 
-                if(i.includes("Elearning")){
+
+                if(i.includes("onto")){
                     if(val[0]["@value"] == undefined)
                         d3.select(".props").append("li").html(name+" : "+val[0]["display_title"])
                     else
